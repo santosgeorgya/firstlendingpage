@@ -3,9 +3,15 @@ body{
 }
 
 .header {
-  background-image: url('..img/bg.png')no-repeat;
-  background-size: cover;
-  background-position: center;  
+    background-image: url('https://s3-alpha-sig.figma.com/img/d055/35c1/dc806874b6b1ae855fcc702d23d8879e?Expires=1739145600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=DmkElmBH6~gV7OG7tWi3gk0sbJDYl~YYCEFq3ZhzxRgythQTOz9G30DwwbqDdf3RA9gkIj-GkJ6lh4SXaI-0VKDGFDPAUey8UIlW405du-BQC-t7EYZC5exwqBt6HOqZiuIURwdMgRpYfIWW4Si5pnTPZ1tMoUK4TOWlX1BYK6WIGmQxJt4KF3S-CJK4gx5dg3blMMp9EybPMaMYlWb~mtfFmjnXJ7V5ps32foQ2ZFouUjXE2J0n5z2vEGuLlYUVcVcfATnEYmkYQmujbPkDJCUmts63tDOrDqG5VV5YU~fE-3eZCJxNNB6rYBnISfQWAH06lcLhTLNx8lg0Xmes7Q__');
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
 }
 
 .open-sans {
@@ -17,20 +23,67 @@ body{
     "wdth" 100;
 }
 
+.float {
+  float: left;
+}
+
 h1{
   font-family: "Open Sans", serif;
   font-size: 60px;
+  color: white;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.textheader{
+  font-family: "Open Sans", serif;
+  font-size: 16 px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+}
+
+.textheader-2{
+  font-family: "Open Sans", serif;
+  font-size: 11 px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+}
+
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.menu{
+  display: flex;
+  height: 18px;
+  margin: 249 30 0 30;
+
 }
 
 nav ul {
   font-family: "Open Sans", serif;
   color: rgba(72, 85, 91, 1);
+  width: 941px;
   display: flex;
   justify-content: flex-end;
   list-style: none;
-  margin: 0;
-  padding: 0;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 nav li {
@@ -41,7 +94,8 @@ nav a {
   color: #000;
   text-decoration: none;
 }
-h2{
+
+.h2{
   font-family: "Open Sans", serif;
   font-size: 18 px;
   letter-spacing: 2px;
@@ -74,26 +128,41 @@ h5{
   width: 405px;
 }
 
-.block{
-  display: flex;
-  width: 941px;
-  margin-top: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  justify-content: center;
-  flex-direction: column;
+.block3{
+  margin: 58px 250px 118px 250px;
+}
+
+.blocktext{
+  display: inline-block;
 }
 
 .blockimg{
-  display: flex;
-  align-items: flex-start;
-  order:2; 
-  align-self:flex-end;
+  display: inline-block;
+}
+
+.image2{
+  position: relative;
+  display: inline-block;
+  margin: 14px;
+}
+
+.overlay{
+  position: absolute;
+  top: 15%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  font-family: "Open Sans";
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
 }
 
 .rectangle{
-  display: flex;
-  justify-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 50px;
   height: 2px;
   background-color: rgba(0, 164, 229, 1);
