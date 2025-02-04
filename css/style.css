@@ -8,10 +8,17 @@ body{
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     background-size: cover;
     background-position: center;
+}
+
+.headerelements{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 40px 0px 10px 0px;
 }
 
 .open-sans {
@@ -97,18 +104,27 @@ nav a {
 
 .h2{
   font-family: "Open Sans", serif;
+  font-weight: bold;
   font-size: 18 px;
   letter-spacing: 2px;
   color: rgba(72, 85, 91, 1);
   text-align: center;
 }
 
-h5{
+.h5{
   font-family: "Open Sans", serif;
-  font-size: 18 px;
+  font-size: 18px;
   letter-spacing: 2px;
+  font-weight: bold;
   color: rgba(72, 85, 91, 1);
   text-align: left;
+}
+
+h3{
+  font-family: "Open Sans", serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: rgba(72, 85, 91, 1);
 }
 
 .textbold{
@@ -126,6 +142,13 @@ h5{
   color: rgba(72, 85, 91, 1);
   text-align: left;
   width: 405px;
+}
+
+.text3{
+  font-family: "Open Sans", serif;
+  font-size: 13 px;
+  color: rgba(72, 85, 91, 1);
+  text-align: left;
 }
 
 .block3{
@@ -168,6 +191,21 @@ h5{
   background-color: rgba(0, 164, 229, 1);
 }
 
+.rectangle2{
+  display: inline-block;
+  width: 50px;
+  height: 2px;
+  background-color: rgba(0, 164, 229, 1);
+}
+
+.rectangle3{
+  max-width: 295px;
+  max-height: 330px;
+  border: 1px solid rgba(230, 230, 230, 1);
+  text-align: start;
+  padding: 38px 20px 25px 23px;
+}
+
 span{
   color: rgba(0, 164, 229, 1);
 }
@@ -181,6 +219,15 @@ span{
   
 }
 
+.line1{
+  display: flex;
+  justify-content: space-between;
+}
+
+.element1{
+  margin: 0px 12px 0px 12px;
+}
+
 .button{
   width: 150px;
   height: 40px;
@@ -192,4 +239,106 @@ span{
   text-decoration: none;
   display: inline-block;
   font-size: 13px;
+}
+
+.screen4{
+  background-image: url(https://s3-alpha-sig.figma.com/img/581f/5b4b/43cb5b04fc1cbc2392456c0c0cb836a7?Expires=1739145600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=o86--7ppuX18iyALkzlbHYNVPsGHaCJgU2-Tf49d45AorNkUG6XzW~2puK8y1fcxnK8xLEnfmuqbPRnrqFuusebh7dkkcDmFRj9qW0cx472IAvdquOEWs4yy~L9dBqLK53ev3Nlh2Y7nx-i-TpSle6Z-E--1YOC4zRmVFM-UzuQdk7zPlhDxBO2HzBFTQBBW3xtuLH9V0WhJNS58m3khC7qvoyCnEtyFG9nefUlC6VsbAorqeir0NhifKuAZHGaBE0zZ804EqygVjBGUMLO8QGfM3gS06cB5lMAVL8clVefcppaE~HLzWiEuFOg5ECDL4aGjeBvHjID5gKELxyELeQ__);
+  width: 100%;
+  height: 499px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.screen4text{
+  font-family: "Open Sans", serif;
+  font-weight: bold;
+  font-size: 30 px;
+  color: rgba(72, 85, 91, 1);
+  text-align: center;
+}
+
+.screen5{
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 10px;
+}
+
+.screen5text{
+  font-family: "Open Sans", serif;
+  font-size: 22 px;
+  color: white;
+}
+
+.screen5email{
+  font-family: "Open Sans", serif;
+  font-size: 14px;
+  color: rgba(72, 85, 91, 1);
+}
+
+.footertext{
+  font-family: "Open Sans", serif;
+  font-size: 11px;
+  color: white;
+}
+
+footer{
+  background-color: black;
+}
+
+.rectangle4{
+  max-width: 250px;
+  max-height: 148px;
+  border: 1px solid black;
+  text-align: start;
+  margin: 10px 0px 0px 300px;
+}
+
+.links{
+  font-family: "Open Sans", serif;
+  font-size: 11px;
+  color: white;
+  text-decoration: none;
+  margin-right: 30px;
+}
+
+.rectangle5{
+  width: 76px;
+	height: 125px;
+	}
+
+.line2{
+  display: flex;
+  justify-content: left;
+}
+
+.element2{
+  margin: 30px 0px 0px 300px;
+}
+
+.footercolumn{
+  display: flex;
+  justify-content: center;
+}
+
+.column{
+  margin: 30px 34px 0px 0px;
+}
+
+.line3{
+  display: inline-block;
+  height: 125px;
+}
+
+.element3{
+  display: inline-block;
+}
+
+.copyright{
+  text-align: center;
 }
