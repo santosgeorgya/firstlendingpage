@@ -24,11 +24,11 @@
   <div><img class="menu" src="img/logo-black.png" alt="hmmm"></div>
   <nav>
     <ul>
-      <li><a href="#">HOME</a></li>
-      <li><a href="#">ABOUT</a></li>
-      <li><a href="#">SERVICES</a></li>
-      <li><a href="#">WORK</a></li>
-      <li><a href="#">CONTACT</a></li>
+      <li id="menuHome"><a href="#">HOME</a></li>
+      <li id="menuAbout"><a href="#">ABOUT</a></li>
+      <li id="menuServices"><a href="#">SERVICES</a></li>
+      <li id="menuWork"><a href="#">WORK</a></li>
+      <li id="menuContact"><a href="#">CONTACT</a></li>
     </ul>
   </nav>
 </div>
@@ -64,7 +64,7 @@
   <div class="line">
    <div class="element"><p class="h5">OUR CAPABILITIES</p></div>
    <div class="element"><p class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p></div>
-    <div class="element"><button type="button" name="popup-button" class="button">ALL SERVICES</button></div>
+    <div class="element"><button type="submit" name="popup-button" class="button">ALL SERVICES</button></div>
   </div>
   <div class="rectangle2"></div></div>
 
@@ -95,33 +95,34 @@
 
 <div class="screen4">
  <p class="screen4text">Want to build <br>something amazing?</p>
- <button class="button" type="button" name="popup-button">GET IN TOUCH</button>
+ <button class="button" type="submit" name="popup-button">GET IN TOUCH</button>
 </div>
 
 <div class="screen5">
  <p class="screen5text">Newsletter Signup</p>
  <form action="send.php" method="post">
-   <input class="screen5email" type="text" name="email" placeholder="test@youremail.com">
-   <input class="button" type="submit" value="SIGNUP">
+   <input class="screen5email" type="text" name="email" placeholder="test@youremail.com" id="inputMain">
+   <input class="inputButton" type="submit" name="popup-button" value="SIGNUP">
    </form>
 </div>
 
 <footer>
-  <div class="line2">
-  <div class="element2">
+  <div class="container">
+  <div class="item1">
   <p class="footertext">COMPANY</p></div>
-  <div class="element2">
+  <div class="item2">
   <p class="footertext">LINKS</p></div>
-  <div class="element2">
+  <div class="item3">
   <p class="footertext">CONTACT US</p></div>
   </div> 
 
-  <div class="rectangle4 element3">
+  <div class="container">
+  <div class="rectangle4 item1">
    <img src="img/logo.png" alt="hmmm">
    <p class="footertext">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
   </div>
 
-  <div class="element3">
+  <div class="item2">
   <div class="footercolumn">
   <div class="column">
    <p><a class="links" href="#">HOME</a></p>
@@ -141,13 +142,14 @@
    <p><a class="links" href="#">NEWS</a></p>
   </div></div></div>
 
- <div class="element3">
+ <div class="item3">
   <p class="footertext">213 Baker Street <br> Oriel City Kounty <br> 7000 KNW, <br> Kountry Name <br> <br>+23 994 233 4022 <br> <br> info@konstruct.com</p>
- </div> </div>
+ </div> </div></div>
 
  <p class="footertext copyright">&copy; 2017 Konstruct Inc. Designed by Jane Kathryn Teo</p>
 </footer>
 </body>
+<script src="./js/skript.js"></script>
+<script src="./js/script.js"></script>
 
-</body>
 </html>

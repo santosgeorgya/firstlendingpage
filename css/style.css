@@ -228,7 +228,7 @@ span{
   margin: 0px 12px 0px 12px;
 }
 
-.button{
+.button[type="submit"]{
   width: 150px;
   height: 40px;
   background-color: rgba(0, 164, 229, 1);
@@ -239,6 +239,24 @@ span{
   text-decoration: none;
   display: inline-block;
   font-size: 13px;
+}
+
+.inputButton{
+  width: 150px;
+  height: 40px;
+  background-color: rgba(0, 164, 229, 1);
+  border: none;
+  color: white;
+  padding: 1px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+}
+
+.button[type="submit"].newColorBtn {
+  color: #ffffff;
+  background-color: #5D26C1;
 }
 
 .screen4{
@@ -296,7 +314,7 @@ footer{
   max-height: 148px;
   border: 1px solid black;
   text-align: start;
-  margin: 10px 0px 0px 300px;
+  margin: 25px 0px 0px 0px;
 }
 
 .links{
@@ -323,11 +341,10 @@ footer{
 
 .footercolumn{
   display: flex;
-  justify-content: center;
 }
 
 .column{
-  margin: 30px 34px 0px 0px;
+  margin: 0px 34px 0px 0px;
 }
 
 .line3{
@@ -341,4 +358,24 @@ footer{
 
 .copyright{
   text-align: center;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: [one] 1fr [two] 1fr [three] 1fr [four] 1fr [five] 1fr [six] 1fr [seven] 1fr [eight] 1fr [nine] 1fr [ten];
+}
+
+.item1 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
+
+.item2 {
+  grid-column-start: 5;
+  grid-column-end: 7;
+}
+
+.item3 {
+  grid-column-start: 7;
+  grid-column-end: 8;
 }
